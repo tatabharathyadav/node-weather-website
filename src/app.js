@@ -4,6 +4,8 @@ const path=require('path');
 const hbs=require('hbs');
 //const forecast = require('../../weather-app/utils/forecast');
 const app=express();
+
+const port=process.env.PORT || 8090;    
 //converted into html file
 const publicdirectorypath=path.join(__dirname,'../public')
 const viewspath=path.join(__dirname,'../templates/views')
@@ -191,7 +193,7 @@ app.get('*',(req,res)=>
 
 //to start the server we use listen
 
-app.listen(8090,()=>
+app.listen(port,()=>
 {
-    console.log('server is on port 8090');
+    console.log('server is on port '+port);
 })
