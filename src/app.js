@@ -25,7 +25,7 @@ app.get('',(req,res)=>
 {
     res.render('index',{
         title:'weather app',
-        name:'bharat'
+        name:'TATA BHARAT YADAV'
     })
    
 })
@@ -33,17 +33,17 @@ app.get('',(req,res)=>
 app.get('/about',(req,res)=>
 {
     res.render('about',{
-        title:'about me',
-        name:'bharat'
+        title:'About me',
+        name:'TATA BHARAT YADAV'
     })
 })
 
 app.get('/help',(req,res)=>
 {
     res.render('help',{
-       help:'help me please',
-       title:'help',
-       name:'bharat'
+       help:'Please visit below websites',
+       title:'Help',
+       name:'TATA BHARAT YADAV'
     });
 })
 

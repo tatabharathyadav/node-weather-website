@@ -1,5 +1,5 @@
 body{
-    color:#333333;
+    color:#f7f7f7;
     font-family:arial;
     max-width:650px;
     margin:0 auto;
@@ -8,6 +8,10 @@ body{
     display:flex;
     flex-direction:column;
     min-height:100vh;
+    background-repeat: no-repeat;
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    
 }
 
 .main-content
@@ -17,8 +21,8 @@ body{
 
 
 footer{
-    color:#888888;
-    border-top: 1px solid #eeeeee;
+    color:#c106fa;
+    border-top: 1px solid #ffffff00;
     margin-top:16px;
     padding:16px 0;
 
@@ -39,7 +43,7 @@ h1{
 
 header a
 {
-    color:#888888;
+    color:#9206ef;
     margin-right:16px;
     text-decoration:none;
 }
